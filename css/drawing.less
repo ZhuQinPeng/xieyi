@@ -1,0 +1,130 @@
+#wrap nav .Renderings {
+    background-color: #CFDB00;
+}
+#wrap #content {
+    position: relative;
+    padding-bottom: 7.32064%;
+}
+#wrap #content .place {
+    height: 71px;
+}
+#wrap #content .content-box {
+    max-width: 1025px;
+    margin: 0 auto;
+}
+#wrap #content .content-box .service { 
+    margin-top: 14.24390%;
+    margin-bottom: 7.41463%;
+}
+#wrap #content .content-box .service p {
+     font-size: 2.6rem;
+     color: #616161;
+     text-align: center;
+     span {
+         display: inline-block;
+         vertical-align: middle;
+         max-width: 122px;
+         width: 11.90243%;
+         border-bottom: 2px solid #cfdb00;
+     }
+}
+.banner {
+    width: 100%;
+}
+.swiper-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.swiper-inner {
+    width: 400%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.swiper-inner a {
+    float: left;
+    display: block;
+    width: 100/4%;
+}
+.swiper-inner a img {
+    width: 100%;
+}
+
+.dynamic {
+    margin-top: 4.75841%;
+    padding: 0 1.31771%;
+}
+.dynamic li {
+    width: 32.66666%;
+    float: left;
+}
+.dynamic li:nth-child(2) {
+    margin: 0 1%;
+}
+.dynamic li>div {
+    position: relative;
+    margin-bottom: 10px;
+}
+.dynamic li>div:hover div {
+    opacity: 1;
+}
+.dynamic li>div>img {
+    width: 100%;
+}
+.dynamic li>div>div {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 7.5% 8.85245%;
+    background: rgba(207, 219, 0, 0.6);
+    background-clip: content-box;
+    z-index: 10;
+    transition: opacity 0.5s;
+}
+
+.dynamic li>div>div>div {
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    height: 46px;
+    top: 50%;
+    left: 50%;
+    margin-top: -23px;
+    margin-left: -40px;
+    z-index: 20;
+}
+.dynamic li>div>div>div>img {
+    width: 32px;
+}
+.dynamic li>div>div>div>p {
+    font-size: 2rem;
+    color: #fff;
+    opacity: 0.6;
+}
+.block {
+    position: absolute;
+    width: 70px;
+    height: 52px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -35px;
+    background: url(../img/drawing-huitop.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width:768px) {
+    #wrap #content {
+        padding-bottom: 17.32064%;
+    }
+    #wrap #content .content-box .service p {
+        font-size: 1.4rem;
+    }
+    .dynamic li>div>div>div>p {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,59 @@
+#wrap nav .Contact {
+  background-color: #CFDB00;
+}
+#wrap #content .place {
+  height: 71px;
+}
+#wrap #content .box {
+  max-width: 1025px;
+  margin: 0 auto;
+  padding-top: 17.07317%;
+  text-align: center;
+  padding-bottom: 9.26829%;
+}
+#wrap #content .box img {
+  width: 32%;
+}
+#wrap #content .container {
+  max-width: 1025px;
+  margin: 0 auto;
+  text-align: center;
+}
+#wrap #content .container p {
+  font-size: 1.8rem;
+  color: #595757;
+  margin-bottom: 6px;
+}
+#wrap #content .container p:nth-child(1) {
+  padding-bottom: 10.7317%;
+  margin-bottom: 0;
+  font-size: 2.6rem;
+  color: #616161;
+}
+#wrap #content .container p:nth-child(1) span {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 122px;
+  width: 11.90243%;
+  border-bottom: 2px solid #cfdb00;
+}
+#wrap #content .container p:nth-last-child(1) {
+  padding-bottom: 39.02439%;
+  margin-bottom: 0;
+}
+#wrap footer .contact p:nth-child(1) {
+  padding-top: 9.17073%;
+  padding-bottom: 0;
+}
+#wrap footer .contact p:nth-child(4) {
+  padding-bottom: 12.29268%;
+}
+@media screen and (max-width: 768px) {
+  #wrap #content .container p:nth-child(1) {
+    font-size: 1.4rem;
+  }
+  #wrap #content .container p {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
